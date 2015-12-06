@@ -54,7 +54,7 @@ iab main int		main(int argc, char **argv)<CR>{<CR><Right><DEL><DEL>
 
 set autoindent
 
-"Still indent
+"Still indent.
 
 set cindent
 
@@ -62,7 +62,7 @@ set cindent
 
 set colorcolumn=80
 
-"This is for the searches
+"This is for the searches.
 
 set hlsearch
 
