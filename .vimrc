@@ -43,6 +43,8 @@ iab mian main
 iab while( while (<DEL>
 iab if( if (<DEL>
 iab esle else
+nnoremap ; :
+
 "Auto-main :
 iab main int		main(int argc, char **argv)<CR>{<CR><Right><DEL><DEL>
 
@@ -78,12 +80,6 @@ highlight WhiteSpaces ctermbg=yellow
 let l = matchadd("WhiteSpaces", "  ")
 let m = matchadd("WhiteSpaces", " $")
 let n = matchadd("WhiteSpaces", "	$")
-
-"Auto-pairing parentheses :
-
-map! ( ()<left>
-map! [ []<left>
-map! { {}<left>
 
 
 "###############################END OF CONFIG##################################"
