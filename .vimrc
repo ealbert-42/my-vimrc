@@ -1,3 +1,4 @@
+
 "###############################VIM CONFIG v0.1################################"
 
 "Lines number
@@ -72,11 +73,10 @@ set hlsearch
 
 set ignorecase
 
-
 "The following lines are for highlighting double spaces, tab + newline
 "and space + newline. You can change the color in ctermbg :
 
-highlight WhiteSpaces ctermbg=yellow
+highlight WhiteSpaces ctermbg=white
 let l = matchadd("WhiteSpaces", "  ")
 let m = matchadd("WhiteSpaces", " $")
 let n = matchadd("WhiteSpaces", "	$")
