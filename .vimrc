@@ -44,10 +44,11 @@ iab mian main
 iab while( while (<DEL>
 iab if( if (<DEL>
 iab esle else
+iab bye <Esc>:wq
 nnoremap ; :
 
 "Auto-main :
-iab main int		main(int argc, char **argv)<CR>{<CR><Right><DEL><DEL>
+iab mainplease int		main(int argc, char **argv)<CR>{<CR><Right><DEL><DEL>
 
 
 "###############################################################################
