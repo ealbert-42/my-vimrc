@@ -48,7 +48,7 @@ iab bye <Esc>:wq
 nnoremap ; :
 
 "Auto-main :
-iab mainplease int		main(int argc, char **argv)<CR>{<CR><Right><DEL><DEL>
+iab mainplease int		main(int argc, char **argv)<CR>{<CR>return (0);<CR>}<Up>
 
 
 "###############################################################################
